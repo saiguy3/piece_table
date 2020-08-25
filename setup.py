@@ -10,7 +10,7 @@ with open("README.rst", "r") as f:
 
 setup(
     name="piece_table",
-    version="0.0.2",
+    version="0.0.3",
     description="A Python implementation of the piece table data structure",
     long_description=long_description,
     long_description_content_type="text/x-rst",
