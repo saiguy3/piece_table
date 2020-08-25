@@ -44,7 +44,7 @@ class PieceTable:
             start, stop, step = key.indices(len(self))
             return self.string_at(start, stop - start)[::step]
         else:
-            raise TypeError(f"Index must be int, not {type(key).__name__}")
+            raise TypeError("Index must be int, not {}".format(type(key).__name__))
 
     def replace_pieces(self, start, replace_count, items):
         """

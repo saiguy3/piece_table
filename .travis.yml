@@ -3,7 +3,8 @@ python:
   - 3.5
   - 3.6
   - 3.7
-install: True
+install:
+  - pip install flake8
 script:
   - flake8 --max-line-length=100
   - python -m unittest discover -s tests

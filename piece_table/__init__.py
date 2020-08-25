@@ -1,1 +1,1 @@
-from .piece_table import PieceTable   # noqa: F401
+from .piece_table import PieceTable  # noqa: F401
